@@ -1,0 +1,114 @@
+#gsaFeedback {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    color: #fff;
+    font-size: 14px;
+    outline: 0;
+    z-index: 1001;
+    zoom: 1;
+}
+
+#gsaFeedback .tab {
+    width: 30%;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #27308d;
+    text-align: center;
+    margin-left: 60%;
+}
+
+#gsaFeedback .tab a {
+    display: block;
+    color: #fff;
+}
+
+#gsaFeedback .body {
+    background: #0a1354;
+    padding: 20px 20px;
+    background: #27308d;
+    display: none;
+    box-shadow: inset 0 -1px 10px 1px #131960;
+    border-top-left-radius: 4px;
+    position: relative;
+    zoom: 1;
+}
+
+#gsaFeedback h3 {
+    border-bottom: 2px solid #5864e9;
+    margin-bottom: 25px;
+}
+
+#gsaFeedback .btn-group {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#gsaFeedback .query {
+    clear: both;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 560px;
+}
+
+#gsaFeedback .query {
+    margin: 0;
+}
+
+#gsaFeedback .query span {
+    padding: 8px 8px;
+    float: left;
+    font-size: 12px;
+}
+
+#gsaFeedback textarea {
+    width: 97%;
+    height: 50px;
+}
+
+#gsaFeedback #star {
+    margin: 0 auto;
+    width: auto!important;
+}
+
+#gsaFeedback .btn-group .btn.active,
+#gsaFeedback .btn-group .btn.active:hover {
+    background: #5864e9;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-shadow: none;
+}
+
+#gsaFeedback .btn-group .btn:hover {
+    background: #ccc;
+}
+
+#gsaFeedback .tab a:hover {
+    text-decoration: none;
+}
+
+#gsaFeedback .load {
+    position: absolute;
+    background: url(/resources/images/load-on-blue-small.gif) right center no-repeat;
+    height: 24px;
+    bottom: 15px;
+    right: 25px;
+    padding: 10px 40px 0 0;
+    color: #fff;
+    font-size: 12px;
+    display: none;
+}
+
+#gsaFeedback form {
+    display: none;
+}
+
+#queryText {
+    padding-bottom: 10px;
+}
+
+#queryText:empty {
+    display: none;
+}
